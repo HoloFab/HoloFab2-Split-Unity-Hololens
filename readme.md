@@ -1,6 +1,6 @@
-These are only files needed for Hololens for Holofab.
-
 # [HoloFab2](https://holofab.github.io/)
+
+These are only files needed for Hololens for Holofab.
 
 Developed by (in alphabetical order):
 
