@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587272, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -845,10 +845,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1560679189}
-  - component: {fileID: 1560679192}
-  - component: {fileID: 1560679191}
-  - component: {fileID: 1560679190}
   - component: {fileID: 1560679193}
+  - component: {fileID: 1560679191}
+  - component: {fileID: 1560679192}
+  - component: {fileID: 1560679190}
+  - component: {fileID: 1560679194}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -925,6 +926,21 @@ MonoBehaviour:
   remotePort: 8888
   expireTime: 2
   broadcastMessage: Hololens
+--- !u!114 &1560679194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560679188}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da70cf441317af64dac21962f09d825e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 180000
+  remotePortOverride: 13131
+  remoteIP: 
 --- !u!1 &1642014486
 GameObject:
   m_ObjectHideFlags: 0
